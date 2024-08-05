@@ -84,6 +84,20 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+   background-color: #111;
+   color: #eee;
+   align-items: stretch;
+   justify-content: center;
+   display: flex;
+   flex-wrap:wrap;
+  font-family:sans-serif;
+   column-gap:0.5em;
+}
+p {display:flex; margin:0}
+#dow,#year,#time,#at {justify-content:center; width:100%}
+#dow {text-transform:uppercase; font-weight:bold;}
+#at {font-family:monospace}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
